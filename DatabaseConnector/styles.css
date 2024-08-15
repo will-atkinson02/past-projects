@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dodgerblue 2px solid;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+}
+
+.add-new-container {
+    width: fit-content;
+    padding: 5px;
+    background-color: dodgerblue;
+
+}
+.add-new-container a {
+    text-decoration: none;
+}
+
+span {
+    background-color: cyan;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.create-post {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+
+
